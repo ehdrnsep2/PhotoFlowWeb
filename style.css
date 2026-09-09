@@ -1,0 +1,61 @@
+
+:root {
+  --text: #202124;
+  --muted: #5f6368;
+  --border: #dadce0;
+  --surface: #f8f9fa;
+  --accent: #1a73e8;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, "Noto Sans KR", sans-serif;
+  color: var(--text);
+  background: #fff;
+  line-height: 1.7;
+}
+.container { max-width: 900px; margin: 0 auto; padding: 0 24px; }
+header {
+  border-bottom: 1px solid var(--border);
+  background: #fff;
+}
+.nav {
+  height: 76px; display: flex; align-items: center; justify-content: space-between;
+}
+.brand { display: flex; align-items: center; gap: 12px; font-weight: 700; font-size: 22px; }
+.brand img { width: 42px; height: 42px; object-fit: contain; }
+nav a { color: var(--muted); text-decoration: none; margin-left: 22px; font-size: 14px; }
+nav a:hover { color: var(--text); }
+.hero { padding: 80px 0 72px; text-align: center; background: linear-gradient(#fff, #f8fbff); }
+.hero img { width: min(280px, 70vw); height: auto; }
+.hero h1 { font-size: 52px; margin: 20px 0 12px; letter-spacing: -1.5px; }
+.hero p { max-width: 650px; margin: 0 auto; color: var(--muted); font-size: 19px; }
+.badge {
+  display: inline-block; margin-top: 24px; padding: 8px 14px; border-radius: 999px;
+  background: #eef3fd; color: #174ea6; font-size: 14px; font-weight: 600;
+}
+section { padding: 56px 0; }
+h2 { font-size: 30px; margin: 0 0 18px; letter-spacing: -.5px; }
+h3 { margin-top: 30px; }
+.grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 18px; }
+.card {
+  border: 1px solid var(--border); border-radius: 16px; padding: 24px; background: #fff;
+}
+.card h3 { margin: 0 0 8px; font-size: 19px; }
+.card p { margin: 0; color: var(--muted); }
+ul { padding-left: 22px; }
+.notice {
+  background: var(--surface); border-left: 4px solid var(--accent);
+  padding: 18px 20px; border-radius: 8px; margin: 24px 0;
+}
+footer { border-top: 1px solid var(--border); padding: 28px 0; color: var(--muted); font-size: 14px; }
+footer a { color: inherit; }
+.policy { padding: 56px 0 80px; }
+.policy h1 { font-size: 40px; margin-bottom: 8px; }
+.updated { color: var(--muted); font-size: 14px; margin-bottom: 36px; }
+@media (max-width: 680px) {
+  .grid { grid-template-columns: 1fr; }
+  .hero h1 { font-size: 40px; }
+  nav a { margin-left: 10px; }
+  .brand { font-size: 19px; }
+}
