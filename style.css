@@ -26,6 +26,8 @@ header {
 .brand img { width: 42px; height: 42px; object-fit: contain; }
 nav a { color: var(--muted); text-decoration: none; margin-left: 22px; font-size: 14px; }
 nav a:hover { color: var(--text); }
+.language-switch { margin-left: 22px; color: var(--muted); font-size: 14px; white-space: nowrap; }
+.language-switch a { margin-left: 0; }
 .hero { padding: 80px 0 72px; text-align: center; background: linear-gradient(#fff, #f8fbff); }
 .hero img { width: min(280px, 70vw); height: auto; }
 .hero h1 { font-size: 52px; margin: 20px 0 12px; letter-spacing: -1.5px; }
@@ -61,5 +63,6 @@ footer a { color: inherit; }
   .grid { grid-template-columns: 1fr; }
   .hero h1 { font-size: 40px; }
   nav a { margin-left: 10px; }
+  .language-switch { display: block; margin: 4px 0 0 10px; }
   .brand { font-size: 19px; }
 }
