@@ -1,13 +1,13 @@
-# PhotoFlow Web Site
+# KPhotoFlow Web Site
 
-Static website for PhotoFlow, intended for GitHub Pages. The site describes the Android TV ambient screensaver and the separate local lock-screen photo feature.
+Static website for KPhotoFlow, intended for GitHub Pages. The site describes the Android TV ambient screensaver and the separate local lock-screen photo feature.
 
 ## Files
 
 - `index.html` — application homepage
 - `privacy.html` — privacy policy
 - `terms.html` — terms of service
-- `assets/photoflow-logo.png` — PhotoFlow logo
+- `assets/photoflow-logo.png` — KPhotoFlow logo
 - `style.css` — shared styling
 
 ## GitHub Pages
@@ -33,6 +33,6 @@ Verify the custom domain in Google Search Console using the same Google account 
 
 ## Important content check
 
-The privacy policy is drafted around the current PhotoFlow behavior: user-selected albums through the Google Photos Ambient API, memory-only playback on Android TV, separate local folders for screensaver and lock-screen photos, randomized playback, no sale/advertising/unrelated third-party sharing, and removal of connection metadata on disconnect.
+The privacy policy is drafted around the current KPhotoFlow behavior: user-selected albums through the Google Photos Ambient API, memory-only playback on Android TV, separate local folders for screensaver and lock-screen photos, randomized playback, no sale/advertising/unrelated third-party sharing, and removal of connection metadata on disconnect.
 
-Before submitting verification, review the policy against the actual implementation. In particular, update the policy if PhotoFlow sends analytics/crash data, uses a backend, or handles any data in a way not described here.
+Before submitting verification, review the policy against the actual implementation. In particular, update the policy if KPhotoFlow sends analytics/crash data, uses a backend, or handles any data in a way not described here.
