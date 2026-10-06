@@ -26,6 +26,9 @@ nav a:hover { color: var(--text); }
 .badges { display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; }
 .badge { display: inline-block; margin-top: 28px; padding: 9px 15px; border: 1px solid rgba(255,255,255,.22); border-radius: 999px; background: rgba(255,255,255,.11); color: #fff; font-size: 13px; font-weight: 700; }
 .badge.secondary { background: rgba(22,184,177,.22); color: #c9fffb; }
+.hero-actions { display: flex; justify-content: center; margin-top: 30px; }
+.download-button { display: inline-flex; align-items: center; gap: 10px; padding: 13px 20px; border: 1px solid rgba(255,255,255,.28); border-radius: 13px; background: #fff; color: #10213d; font-size: 14px; font-weight: 800; text-decoration: none; box-shadow: 0 12px 28px rgba(0,0,0,.2); transition: transform .2s ease, box-shadow .2s ease, background .2s ease; }
+.download-button:hover { background: #e8fffc; color: #0c514f; transform: translateY(-2px); box-shadow: 0 16px 32px rgba(0,0,0,.25); }
 section { padding: 88px 0; }
 h2 { font-size: clamp(28px, 4vw, 38px); margin: 0 0 28px; letter-spacing: -1.2px; }
 .grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 20px; }
