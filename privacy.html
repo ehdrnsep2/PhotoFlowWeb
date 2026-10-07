@@ -44,6 +44,7 @@
 <p>KPhotoFlow does not download, synchronize, or permanently store Google Photos media on the device. Media needed for active playback is held in process memory and discarded when playback or preview ends.</p>
 <p>Photos from device folders are read only from folders the user explicitly selects. Screensaver folders and lock-screen folders are stored as separate selections.</p>
 <p>KPhotoFlow stores only the configuration needed to operate the connection, such as the selected Ambient device and album source identifiers. OAuth credentials are stored in Android's encrypted credential storage.</p>
+<p>To enforce the one-time trial period, KPhotoFlow sends a one-way hashed installation identifier and the local trial start time to Supabase. Supabase stores only that hashed identifier, the trial start time, and the trial expiration time. KPhotoFlow does not send photos, Google OAuth tokens, Google Account email addresses, or photo content to Supabase. The entitlement record is retained while it is needed to prevent repeated trials on the same device.</p>
 
 <h2>4. Sharing and disclosure</h2>
 <p>We do not sell, rent, or share Google Photos media with third parties for purposes unrelated to providing KPhotoFlow.</p>
